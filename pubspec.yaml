@@ -1,0 +1,32 @@
+name: student_supabase_app
+description: "تطبيق الطلبة — Supabase + Flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.13.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # ===== Supabase =====
+  supabase_flutter: ^2.8.0
+  flutter_dotenv: ^5.2.1
+
+  # ===== أدوات =====
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ===== الأصول =====
+  assets:
+    - assets/
